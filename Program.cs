@@ -9,4 +9,4 @@ Console.Write($"Вторая цифра числа {number} = {number[1]} \n");
 Console.Write($"Введите трёхзначное число \n");
 int a = int.Parse(Console.ReadLine()!);
 int b = a%100/10;
-Console.Write($"Вторая цифра числа {number} = {b}");
+Console.Write($"Вторая цифра числа {a} = {b}");
